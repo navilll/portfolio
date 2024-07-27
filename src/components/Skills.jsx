@@ -72,7 +72,7 @@ const Skills = () => {
             </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8 m-10">
+        <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8 m-3">
             {skills.map((skill, index) => (
                 <div key={index} className="border border-purple-600 p-10 rounded-lg bg-purple-900/20 shadow-lg 
                                 w-full md:w-1/2">

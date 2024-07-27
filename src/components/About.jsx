@@ -6,13 +6,13 @@ const About = () => {
     <div className="py-10 text-white bg-[#232325] h-auto" id='about'>
         <div className="flex sm:flex-row flex-col-reverse items-center md:gap-6 px-10 max-w-6xl mx-auto">
             <div>
-                <div className="w-[350px] h-full mt-5">
+                <div className="w-[350px] h-full">
                     <img src={about} className='object-cover rounded-xl h-[300px] filter grayscale brigtness-50' />
                 </div>
             </div>
 
             <div>
-                <div className="p2">
+                <div className="p-2">
                     <div className="text-gray-300 my-3">
                         <h3 className='text-4xl font-semibold mb-5'>About <span className='primary-text'>Me</span></h3>
                         <p className="text-justify leading-7 w-11/12 mx-auto">

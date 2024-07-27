@@ -20,7 +20,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 m-10">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 m-3">
                 <div className="bg-[#232325] border-[#A3099C] border rounded-lg overflow-hidden">
                     <img
                     src={iby}
@@ -30,13 +30,13 @@ const Projects = () => {
                     className="object-cover w-full h-48 sm:h-64"
                     />
                     <div className="p-4 sm:p-6">
-                    <h3 className="text-lg font-semibold text-white">Iby Outlet</h3>
-                    <p className="text-sm text-gray-400 mt-2">
-                        This is a team project on laravel which I am working on since 
-                        September laravel crud, validation, laravel search,login and sign 
-                        up from laravel/breeze ,multi auth and pagination and many 
-                        more
-                    </p>
+                        <h3 className="text-lg font-semibold text-white">Iby Outlet</h3>
+                        <p className="text-sm text-gray-400 mt-2">
+                            This is a team project on laravel which I am working on since 
+                            September laravel crud, validation, laravel search,login and sign 
+                            up from laravel/breeze ,multi auth and pagination and many 
+                            more
+                        </p>
                     </div>
                 </div>
                 <div className="bg-[#232325] border-[#A3099C] border rounded-lg overflow-hidden">
