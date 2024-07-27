@@ -31,7 +31,7 @@ const Banner = () => {
                 </div>
                 <div className="text-5xl flex justify-start gap-6 my-7 text-purple-600">
                     <a href="https://github.com/navilll" target='_blanck'><AiFillGithub/></a>
-                    <a href="https://in.linkedin.com/in/navil-faisal-824826214" target='_blanck'></a><AiFillLinkedin/>
+                    <a href="https://in.linkedin.com/in/navil-faisal-824826214" target='_blanck'><AiFillLinkedin/></a>
                 </div>
                 <div className="relative inline-flex group my-3">
                     <div className="absolute transition-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-100 group-hover:duration-200">
@@ -44,7 +44,7 @@ const Banner = () => {
                 <img src={blob} alt="Banner" className="w-[300px] sm:w-[500px] mx-auto h-auto rounded-full" />
             </div>
         </div>
-    </div>
+    </div >
   )
 }
 

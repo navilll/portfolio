@@ -60,9 +60,9 @@ const Skills = () => {
   return (
     <div className="py-6 max-w-[1200px] mx-auto text-gray-200 m-5" id="skills">
         <div className="mx-auto px-4 md:px-9">
-            <div className="mb-4 flex items-center justify-between gap-8">
+            <div className=" flex items-center justify-between gap-8">
                 <div className="flex flex-col gap-4">
-                    <h2 className="text-2xl lg:text-3xl text-white">
+                    <h2 className="text-2xl lg:text-3xl text-white mt-16">
                         My <span>Skills</span>
                     </h2>
                     <p className="text-gray-500">
@@ -72,7 +72,7 @@ const Skills = () => {
             </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8 m-3">
+        <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8 m-5">
             {skills.map((skill, index) => (
                 <div key={index} className="border border-purple-600 p-10 rounded-lg bg-purple-900/20 shadow-lg 
                                 w-full md:w-1/2">

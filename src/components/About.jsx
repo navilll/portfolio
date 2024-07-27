@@ -4,7 +4,7 @@ import about from '../assets/about.jpeg'
 const About = () => {
   return (
     <div className="py-10 text-white bg-[#232325] h-auto" id='about'>
-        <div className="flex sm:flex-row flex-col-reverse items-center md:gap-6 px-10 max-w-6xl mx-auto">
+        <div className="flex sm:flex-row flex-col-reverse items-center md:gap-6 px-10 max-w-6xl mx-auto m-12">
             <div>
                 <div className="w-[350px] h-full">
                     <img src={about} className='object-cover rounded-xl h-[300px] filter grayscale brigtness-50' />

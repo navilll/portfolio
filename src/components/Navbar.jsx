@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
 
-        <div className='bg-[#20242d] sticky top-0 z-20'>
+        <div className='bg-[#20242d] sticky top-0'>
             <div className='text-gray-500 flex justify-between items-center max-w-[1240px] mx-auto h-24 px-1 text-1'>
                 <h1 className='text-3xl font-bold primary-color ml-4'>// Navil //</h1>
                 <ul className='hidden md:flex'>
@@ -16,6 +16,7 @@ const Navbar = () => {
                     <a href="#about"><li className='p-5'>About</li></a>
                     <a href="#skills"><li className='p-5'>Skills</li></a>
                     <a href="#experience"><li className='p-5'>Experience</li></a>
+                    <a href="#projects"><li className='p-5'>Projects</li></a>
                     <a href="#contact"><li className='p-5'>Contact</li></a>
                 </ul>
 
@@ -31,6 +32,7 @@ const Navbar = () => {
                         <a href="#about"><li className='p-5'>About</li></a>
                         <a href="#skills"><li className='p-5'>Skills</li></a>
                         <a href="#experience"><li className='p-5'>Experience</li></a>
+                        <a href="#projects"><li className='p-5'>Projects</li></a>
                         <a href="#contact"><li className='p-5'>Contact</li></a>
                     </ul>
                 </div>

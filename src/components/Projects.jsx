@@ -5,9 +5,9 @@ import cybersurance from '../assets/cybersurance.jpeg'
 
 const Projects = () => {
   return (
-    <div className="py-10 text-white h-auto">
-        <div className="py-6 max-w-[1200px] mx-auto ">
-            <div className="mx-auto px-4 md:px-9">
+    <div className="py-10 text-white h-auto" id='projects'>
+        <div className="py-6 max-w-[1200px] mx-auto">
+            <div className="mx-auto px-4 md:px-9 m-12">
                 <div className="mb-4 flex items-center justify-between gap-8">
                     <div className="flex flex-col gap-4">
                         <h2 className="text-2xl lg:text-3xl text-white">

@@ -20,8 +20,16 @@ const experiences = [
 const Experience = () => {
   return (
     <div className="py-10 text-white bg-[#232325] h-auto" id='experience'>
-        <div className='p-3 max-w-[800px] mx-auto '>
-            <h1 className='text-4xl primary-color font-bold text-center mb-12'>Experience</h1>
+        <div className='p-3 max-w-[900px] mx-auto '>
+            <div className="mx-auto px-4 md:px-9">
+                <div className=" flex items-center justify-between gap-8">
+                    <div className="flex flex-col gap-4">
+                        <h2 className="text-2xl lg:text-3xl text-white m-12">
+                            <span>Experience</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
             <motion.div
             className='space-y-8'
             initial="hidden"
@@ -44,7 +52,6 @@ const Experience = () => {
 
                     </motion.div>
                 ))}
-
             </motion.div>
         </div>
     </div>
