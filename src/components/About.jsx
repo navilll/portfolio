@@ -6,7 +6,7 @@ const About = () => {
     <div className="py-10 text-white bg-[#232325] h-auto" id='about'>
         <div className="flex sm:flex-row flex-col-reverse items-center md:gap-6 px-10 max-w-6xl mx-auto">
             <div>
-                <div className="w-[400px] h-full">
+                <div className="w-[350px] h-full mt-5">
                     <img src={about} className='object-cover rounded-xl h-[300px] filter grayscale brigtness-50' />
                 </div>
             </div>
@@ -26,7 +26,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="flex mt-10 items-center gap-7">
+                <div className="flex mt-10 items-center gap-2">
                     <div className="bg-[#333333] p-5 rounded-lg">
                         <h3 className="md:text-4xl text-2xl font-semibold text-white">11
                             <span>+</span>

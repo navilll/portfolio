@@ -20,7 +20,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 m-10">
                 <div className="bg-[#232325] border-[#A3099C] border rounded-lg overflow-hidden">
                     <img
                     src={iby}
