@@ -38,7 +38,7 @@ const Banner = () => {
                 </a>
             </div>
             <div className="my-auto">
-                <img src={blob} alt="Banner" className="w-[350px] sm:w-[500px] mx-2 h-auto rounded-full" />
+                <img src={blob} alt="Banner" className="w-[350px] sm:w-[500px] mx-1 h-auto rounded-full" />
             </div>
         </div>
     </div >
