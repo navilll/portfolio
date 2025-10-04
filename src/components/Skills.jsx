@@ -59,17 +59,17 @@ const skills = [
 const Skills = () => {
   return (
     <div className="py-8 max-w-[1200px] mx-auto text-gray-200 m-5" id="skills">
-        <div className="mx-auto px-2 md:px-9">
-            <div className=" flex items-center justify-between gap-8">
-                <div className="flex flex-col gap-4">
-                    <h2 className="text-2xl lg:text-3xl text-white m-1">
-                        My <span>Skills</span>
-                    </h2>
-                    <p className="text-gray-500">
-                        I worked on various frontend and fullstack projects.
-                    </p>
-                </div>
-            </div>
+        <div className="mx-auto px-6 md:px-9">
+          <div className=" flex items-center justify-between gap-8">
+              <div className="flex flex-col gap-4">
+                  <h2 className="text-2xl lg:text-3xl text-white m-1">
+                      My <span>Skills</span>
+                  </h2>
+                  <p className="text-gray-500">
+                      I worked on various frontend and fullstack projects.
+                  </p>
+              </div>
+          </div>
         </div>
 
         <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8 m-5">

@@ -19,9 +19,9 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div className="py-12 text-white bg-[#232325] h-auto" id='experience'>
-        <div className='py-6 max-w-[1200px] mx-auto'>
-            <div className="mx-auto px-4 md:px-9 m-1">
+    <div className="py-8 max-w-[1200px] mx-auto text-gray-200 m-5" id="experience">
+        <div className="mx-auto px-4 md:px-9">
+            <div className="mx-auto px-2 md:px-9 m-1">
                 <div className="mb-4 flex items-center justify-between gap-8">
                     <div className="flex flex-col gap-4">
                         <h2 className="text-2xl lg:text-3xl text-white">

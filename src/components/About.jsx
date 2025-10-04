@@ -6,7 +6,7 @@ const About = () => {
     <div className="py-10 text-white bg-[#232325] h-auto" id='about'>
         <div className="flex sm:flex-row flex-col-reverse items-center md:gap-6 px-10 max-w-6xl mx-auto m-12">
             <div>
-                <div className="w-[350px] h-full">
+                <div className="w-[350px] h-full mt-4">
                     <img src={about} className='object-cover rounded-xl h-[300px] filter brigtness-50' />
                 </div>
             </div>
@@ -26,24 +26,26 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="flex mt-10 items-center gap-2">
-                    <div className="bg-[#333333] p-5 rounded-lg">
-                        <h3 className="md:text-4xl text-2xl font-semibold text-white">15
-                            <span>+</span>
+                <div className="flex mt-10 items-stretch gap-4 md-2">
+                    <div className="flex-1 bg-[#333333] p-5 rounded-lg flex flex-col items-center justify-center">
+                        <h3 className="md:text-4xl text-2xl font-semibold text-white">
+                        15<span>+</span>
                         </h3>
-                        <p><span className="md:text-base text-sm">Projects</span></p>
+                        <p className="md:text-base text-sm text-center">Projects</p>
                     </div>
-                    <div className="bg-[#333333] p-5 rounded-lg">
-                        <h3 className="md:text-4xl text-2xl font-semibold text-white">3
-                            <span>+</span>
+                    
+                    <div className="flex-1 bg-[#333333] p-5 rounded-lg flex flex-col items-center justify-center">
+                        <h3 className="md:text-4xl text-2xl font-semibold text-white">
+                        3<span>+</span>
                         </h3>
-                        <p><span className="md:text-base text-sm">Years of Experience</span></p>
+                        <p className="md:text-base text-sm text-center">Years of Experience</p>
                     </div>
-                    <div className="bg-[#333333] p-5 rounded-lg">
-                        <h3 className="md:text-4xl text-2xl font-semibold text-white">10
-                            <span>+</span>
+                    
+                    <div className="flex-1 bg-[#333333] p-5 rounded-lg flex flex-col items-center justify-center">
+                        <h3 className="md:text-4xl text-2xl font-semibold text-white">
+                        10<span>+</span>
                         </h3>
-                        <p><span className="md:text-base text-sm">Programming Skills</span></p>
+                        <p className="md:text-base text-sm text-center">Programming Skills</p>
                     </div>
                 </div>
             </div>

@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <div className="py-12 text-white bg-[#232325] h-auto" id="contact">
       <div className="py-6 max-w-[1200px] mx-auto text-gray-900 m-10">
-        <div className="mx-auto px-4 md:px-9">
+        <div className="mx-auto px-6 md:px-9">
           <div className="flex items-center justify-between gap-8">
             <div className="flex flex-col gap-4">
               <h2 className="text-2xl lg:text-3xl text-white">
