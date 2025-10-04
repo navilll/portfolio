@@ -37,8 +37,8 @@ const Banner = () => {
                     Download CV
                 </a>
             </div>
-            <div className="my-auto">
-                <img src={blob} alt="Banner" className="w-[350px] sm:w-[500px] mx-auto h-auto rounded-full" />
+            <div className="my-auto mr-8">
+                <img src={blob} alt="Banner" className="w-[400px] sm:w-[500px] mx-auto h-auto rounded-full" />
             </div>
         </div>
     </div >
