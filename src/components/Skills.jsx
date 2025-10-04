@@ -66,7 +66,7 @@ const Skills = () => {
                       My <span>Skills</span>
                   </h2>
                   <p className="text-gray-500">
-                      I worked on various frontend and fullstack projects.
+                      I worked on various fullstack projects.
                   </p>
               </div>
           </div>
