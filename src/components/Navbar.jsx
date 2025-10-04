@@ -24,16 +24,16 @@ const Navbar = () => {
                     { nav ? <AiOutlineClose size={30}/>  : <AiOutlineMenu size={30}/> }
                 </div>
 
-            <div className={nav ? 'text-gray-300 fixed h-full left-0 top-0 w-[60%] border-r border-r-gray-900 bg-[#202121]  duration-500  ease-in-out' 
+                <div className={nav ? 'text-gray-300 fixed h-full left-0 top-0 w-[60%] border-r border-r-gray-900 bg-[#202121]  duration-500  ease-in-out' 
                     : 'fixed left-[-100%] top-0  h-full ease-in-out duration-500' }>
                     <h1 className='text-3xl primary-color ml-4 my-4'>// Navil //</h1>
                     <ul className='p-8 text-2xl'>
-                        <a href="#home"><li className='p-5'>Home</li></a>
-                        <a href="#about"><li className='p-5'>About</li></a>
-                        <a href="#skills"><li className='p-5'>Skills</li></a>
-                        <a href="#experience"><li className='p-5'>Experience</li></a>
-                        <a href="#projects"><li className='p-5'>Projects</li></a>
-                        <a href="#contact"><li className='p-5'>Contact</li></a>
+                        <a onClick={handleNav} href="#home"><li className='p-5'>Home</li></a>
+                        <a onClick={handleNav} href="#about"><li className='p-5'>About</li></a>
+                        <a onClick={handleNav} href="#skills"><li className='p-5'>Skills</li></a>
+                        <a onClick={handleNav} href="#experience"><li className='p-5'>Experience</li></a>
+                        <a onClick={handleNav} href="#projects"><li className='p-5'>Projects</li></a>
+                        <a onClick={handleNav} href="#contact"><li className='p-5'>Contact</li></a>
                     </ul>
                 </div>
             </div>
