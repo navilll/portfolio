@@ -2,7 +2,7 @@ import React from 'react'
 import blob from '../assets/blob.png'
 import resume from '../assets/resume.pdf'
 import { TypeAnimation } from 'react-type-animation';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 
 const Banner = () => {
@@ -38,7 +38,7 @@ const Banner = () => {
                 </a>
             </div>
             <div className="my-auto">
-                <img src={blob} alt="Banner" className="w-[300px] sm:w-[500px] mx-auto h-auto rounded-full" />
+                <img src={blob} alt="Banner" className="w-[350px] sm:w-[500px] mx-2 h-auto rounded-full" />
             </div>
         </div>
     </div >
